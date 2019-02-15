@@ -19,9 +19,7 @@ public class Solution {
             System.out.print(result[aidx]);
             aidx--;
         }
-        if (aidx < 0) {
-            return result;
-        }
+		
         if (aidx >= 0){
             for (int i=1 ; i < scores.length; i++) {
                 if (scores[i-1] != scores[i]) {
